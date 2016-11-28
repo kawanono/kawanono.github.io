@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>やりたいこと行きたいところリスト</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="themes/blue/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="jquery.tablesorter.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+    {
+        $("#todo_table").tablesorter();
+    }
+);
+</script>
+</head>
+<body>
+<table id="todo_table" class="tablesorter">
+<thead>
+<tr>
+    <th>やりたいこと・行きたいところ</th>
+    <th>メモ</th>
+    <th>済</th>
+</tr>
+</thead>
+<tbody>
+        <tr><td>ジェルキャンドル作る</td><td>ホットプレートじゃなくても湯煎でできそう</td><td></td></tr>
+        <tr><td>祇園辻利 東京スカイツリータウン・ソラマチ店</td><td><a href="http://www.giontsujiri.co.jp/gion/store/tokyo_skytree/" target="_blank">サイト</td><td></td></tr>
+        <tr><td>果実園 リーベル 新宿店</td><td><a href="http://kajitsuen.jp/" target="_blank">サイト</td><td></td></tr>
+        <tr><td>相模湖イルミリオン（イルミネーション）</td><td><a href="http://www.sagamiko-resort.jp/illumillion/" target="_blank">サイト</td><td></td></tr>
+        <tr><td>ビルズにまた行く</td><td>表参道とかもあるけどお台場が一番行きやすいかな</td><td></td></tr>
+        <tr><td>日帰り温泉</td><td><a href="http://www.kawarano-yu.com/" target="_blank">おがわ温泉 花和楽の湯行った</td><td>11/22済</td></tr>
+        <tr><td>ディズニー</td><td>ディズニーランド行ってない</td><td>ディズニーシーは行った</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>
